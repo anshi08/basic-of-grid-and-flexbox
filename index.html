@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <div class = "sidebar">
+        <form>
+            <label for = "name"><b>Name</b></label>
+            <input type="text" rows="5" id="name" name="name" required><br/>
+            <label for = "email"><b>Email</b></label>
+            <input type="email" id="email" name="email" required><br/>
+            <label for = "password"><b>Password</b></label>
+            <input type="password" id="password" name="password" required><br/>
+            <label for = "phnnum"><b>Phone Number</b></label>
+            <input type="tel" id="phone" name="phone"  pattern="[1-9]{1}[0-9]{9}" required><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="content">
+        <table >
+            <tr>
+              <th>Name</th>
+              <th>Student ID</th>
+              <th>Course Code</th>
+              <th>Grade</th>
+            </tr>
+            <tr>
+              <td>Alice Smith</td>
+              <td>12345</td>
+              <td>CS101</td>
+              <td>A</td>
+            </tr>
+            <tr>
+                <td>Bob Johnson</td>
+                <td>67890</td>
+                <td>CS102</td>
+                <td>B</td>
+              </tr>
+              <tr>
+                <td>Charlie Brown</td>
+                <td>11121</td>
+                <td>CS103</td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <td>Diana Lee</td>
+                <td>14151</td>
+                <td>CS104</td>
+                <td>C</td>
+              </tr>
+              <tr>
+                <td>Eva Adams</td>
+                <td>17181</td>
+                <td>CS105</td>
+                <td>B</td>
+              </tr>
+        </table>
+    </div>
+    </div>
+</body>
+</html>
