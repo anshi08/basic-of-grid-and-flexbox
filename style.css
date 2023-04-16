@@ -75,4 +75,24 @@ th {
     color: white;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 225px;
+    margin-top: 27%;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: crimson;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+  }
+
 
