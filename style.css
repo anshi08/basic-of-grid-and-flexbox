@@ -41,13 +41,14 @@ input[type="tel"] {
 input[type="submit"] {
     background-color: #fff;
     color: #3CB371;
+    width: 160px;
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
     padding: 10px 56px;
     border: none;
     border-radius: 5px;
-    margin-left: 41%;
+    margin-left: 128px;
     cursor: pointer;
 }
 
